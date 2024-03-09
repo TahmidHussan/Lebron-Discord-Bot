@@ -12,12 +12,9 @@ Created by: **Tahmid Hussan**
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/a02OaAB.gif' title='Video Demo' width='' alt='Video Demo' />
+![Lebron Bot](https://github.com/TahmidHussan/Lebron-Discord-Bot/assets/90405116/968b0519-5fe6-46b1-a152-d285517424b9)
+
 
 GIF created with **ScreenToGif**
 
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
 
