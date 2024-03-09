@@ -12,7 +12,7 @@ Created by: **Tahmid Hussan**
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/HE4et2x.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/a02OaAB.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **ScreenToGif**
 
