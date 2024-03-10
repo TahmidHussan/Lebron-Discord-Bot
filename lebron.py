@@ -71,7 +71,7 @@ async def on_message(message: Message) -> None:
     if message.author == client.user:
         return
 
-# if the message is !meme, the bot will respond with a gif and a quote
+# if the message is !goat, the bot will respond with a gif and a quote
     if message.content.startswith('!goat'):
         meme = get_gif(message)
         quote = get_quote()
