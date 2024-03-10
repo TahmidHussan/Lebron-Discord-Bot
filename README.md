@@ -6,7 +6,7 @@ Created by: **Tahmid Hussan**
 
 ## Summary
 
-**Lebron Bot** is a friendly discord bot that sends a gif of LeBron James along with an inspirational quote.  
+**Lebron Bot** is a friendly discord bot that uploads a gif of Lebron James using the GIPHY API along with a random inspirational quote from the Zen Quotes API.  
 
 ## Video Demo
 
