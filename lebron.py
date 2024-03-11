@@ -58,12 +58,10 @@ def get_gif(message, *, q="lebron james nba funny memes"):
     except ApiException as e:
         print("Exception when calling API")
     
-
 # SAYS IF BOT IS RUNNING
 @client.event
 async def on_ready() -> None:
     print(f'{client.user} is now running!')
-
 
 # HANDLING THE MESSAGE FOR THE BOT
 @client.event
@@ -71,14 +69,17 @@ async def on_message(message: Message) -> None:
     if message.author == client.user:
         return
 
-# if the message is !goat, the bot will respond with a gif and a quote
-    if message.content.startswith('!goat'):
-        meme = get_gif(message)
-        quote = get_quote()
-        await message.channel.send(meme)
-        await message.channel.send(quote)
-    else:
-        await message.channel.send("I'm sorry, I don't understand that command. Please type !goat for a random LeBron gif and inspirational quote.")
+    # Check if the message starts with '!'
+    if message.content.startswith('!'):
+        # If the message is '!goat', the bot will respond with a gif and a quote
+        if message.content.strip() == '!goat':
+            meme = get_gif(message)
+            quote = get_quote()
+            await message.channel.send(meme)
+            await message.channel.send(quote)
+        else:
+            # If the message starts with '!' but is not '!goat', send an error message
+            await message.channel.send("I'm sorry, I don't understand that command. Please type !goat for a random LeBron gif and inspirational quote.")
 
 #RUNNING THE BOT
 def main() -> None:
