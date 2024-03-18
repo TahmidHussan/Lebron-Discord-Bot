@@ -15,6 +15,6 @@ Here's a video / GIF that demos the bot's features:
 ![Lebron Bot](https://github.com/TahmidHussan/Lebron-Discord-Bot/assets/90405116/968b0519-5fe6-46b1-a152-d285517424b9)
 
 
-GIF created with **ScreenToGif**
+
 
 
